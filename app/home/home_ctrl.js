@@ -2,7 +2,7 @@
 
   'use strict';
 
-  starterApp.controller('main_ctrl', function() {
+  starterApp.controller('home_ctrl', function() {
 
     var vm = this; // view model 
 

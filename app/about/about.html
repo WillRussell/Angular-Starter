@@ -1,4 +1,13 @@
-<div layout="column" flex layout-margin>
-	<h1>About</h1>
-	<p>Example of another state</p>
+<div layout="column" flex layout-margin style="padding-left: 24px; padding-right: 24px">
+
+
+	<h1 class="md-display-1">About</h1>
+	<span class="md-subhead">Components in this app.</span>
+
+	<md-divider></md-divider>
+
+	<ul ng-repeat="item in vm.components">
+		<li>{{::item}}</li>
+	</ul>
+
 </div>

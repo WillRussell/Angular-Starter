@@ -5,4 +5,14 @@ body {
     font-family: Roboto !important;
 }
 
+.md-subhead {
+    color: rgba(0, 0, 0, .65);
+}
+
+.md-display-1 {
+    padding-top: 16px;
+    margin-bottom: 0;
+}
+
+
 @media screen and (max-width: 768px) {}

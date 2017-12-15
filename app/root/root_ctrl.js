@@ -5,7 +5,7 @@
   starterApp.controller('root_ctrl', function($scope, $interval, $mdSidenav) {
 
 
-    $scope.sidenav_links = [{
+    $scope.nav_links = [{
       label: 'Home',
       state: 'home',
       icon: 'home',

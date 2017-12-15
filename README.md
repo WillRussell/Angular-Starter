@@ -5,9 +5,9 @@ A seed project for spinning up a static web app with AngularJS. This project is 
 
 # Run the app locally: 
 
-`git clone`
+`git clone https://github.com/WillRussell/Angular-Starter.git`
 
-`cd angular-start`
+`cd angular-starter`
 
 `python -m SimpleHTTPServer 8000`
 
@@ -15,7 +15,9 @@ A seed project for spinning up a static web app with AngularJS. This project is 
 
 
 # Live Demo: 
-`https://dev9yqjmomg31.cloudfront.net`
+
+[https://dev9yqjmomg31.cloudfront.net](https://dev9yqjmomg31.cloudfront.net)
+
 
 
 

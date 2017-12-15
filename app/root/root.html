@@ -4,7 +4,6 @@
 
     <span>Angular Starter App</span>
 
-    <!-- Clock -->
     <span flex></span>
     <span hide show-gt-sm class="nav-time">{{time || '--'}}</span>
 
@@ -18,12 +17,11 @@
   <div class="md-toolbar-tools">
 
     <md-list layout="row" flex>
-      <div class="nav-links" ng-repeat="link in sidenav_links">
+      <div class="nav-links" ng-repeat="link in nav_links">
 
         <md-list-item ui-sref-active="active" class="item" ui-sref="{{link.state}}">
           <md-icon>{{link.icon}}</md-icon>
           <p class="md-body-2" flex>{{link.label}}</p>
-
         </md-list-item>
 
       </div>
@@ -34,12 +32,9 @@
 
 
 
-
-
-
+<!-- UI View -->
 <div class="container" layout="row" flex layout-align="center">
 
-  <!-- UI States -->
   <md-content class="md-whiteframe-z3" layout="column" flex flex-gt-sm="80">
     <div ui-view="page" layout="column" flex="75"></div>
   </md-content>

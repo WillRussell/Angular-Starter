@@ -19,7 +19,7 @@
 
 
 
-  /* Get with dynamic params */
+  /* GET with dynamic params */
   starterApp.factory('ExampleFactory2', function($resource) {
 
     return $resource(api_url + ':param1&:param2', {

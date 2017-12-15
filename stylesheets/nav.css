@@ -8,6 +8,10 @@
     border: none;
 }
 
+.secondary-nav .nav-links {
+    padding-right: 10px;
+}
+
 .secondary-nav md-icon {
     color: rgba(0, 0, 0, 0.54) !important;
     margin: 14px 12px 14px 0px !important;

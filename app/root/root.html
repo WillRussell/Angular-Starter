@@ -18,7 +18,7 @@
   <div class="md-toolbar-tools">
 
     <md-list layout="row" flex>
-      <div ng-repeat="link in sidenav_links" style="padding-right: 10px;">
+      <div class="nav-links" ng-repeat="link in sidenav_links">
 
         <md-list-item ui-sref-active="active" class="item" ui-sref="{{link.state}}">
           <md-icon>{{link.icon}}</md-icon>
@@ -37,7 +37,7 @@
 
 
 
-<div layout="row" flex layout-align="center" style="padding: 24px;">
+<div class="container" layout="row" flex layout-align="center">
 
   <!-- UI States -->
   <md-content class="md-whiteframe-z3" layout="column" flex flex-gt-sm="80">
